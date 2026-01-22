@@ -12,7 +12,7 @@ This is not just another EEG classifier. This is an **autonomous neuroscientist*
 - **Refines experimental hypotheses** autonomously
 - **Maintains scientific memory** across experiments
 
-The system uses the Google Gemini API (Gemini 3 family – Flash variant) for autonomous scientific reasoning and critique.
+The system uses the Google Gemini API (Gemini 3 Flash) for autonomous scientific reasoning and critique.
 
 ## 🚀 Quick Start
 
@@ -113,7 +113,7 @@ The agent shows:
 
 ## 🤖 Gemini Integration
 
-This project uses Google's Gemini 2.5 Flash model via the Gemini API to implement autonomous scientific reasoning.
+This project uses Google's Gemini 3 Flash model via the Gemini API to implement autonomous scientific reasoning.
 
 Gemini is used as a reasoning engine for:
 - **Experiment planning**: Designs configurations based on previous results
@@ -121,7 +121,7 @@ Gemini is used as a reasoning engine for:
 - **Memory management**: Maintains scientific context across experiments
 - **Stopping decisions**: Makes autonomous judgments about exploration limits
 
-The Gemini 2.5 Flash model, accessed via the Gemini API, powers the autonomous scientific reasoning loop in this AI scientist.
+The Gemini 3 Flash model, accessed via the Gemini API, powers the autonomous scientific reasoning loop in this AI scientist.
 
 ## 🔧 Technical Details
 
@@ -129,7 +129,7 @@ The Gemini 2.5 Flash model, accessed via the Gemini API, powers the autonomous s
 - **Preprocessing**: MNE-Python, 0-600ms epochs, baseline correction
 - **Classification**: Logistic regression on flattened features
 - **Evaluation**: Within-subject train/test split
-- **AI Agent**: Google's Gemini 2.5 Flash model via the Gemini API with structured prompts
+- **AI Agent**: Google's Gemini 3 Flash model via the Gemini API with structured prompts
 
 ## 📊 Example Results
 
