@@ -109,13 +109,25 @@ The agent shows:
 - Methodological refinement
 - Justified decision making
 
+## 🤖 Gemini Integration
+
+This project uses Google's Gemini 2.5 Flash model via the Gemini API to implement autonomous scientific reasoning.
+
+Gemini is used as a reasoning engine for:
+- **Experiment planning**: Designs configurations based on previous results
+- **Scientific critique**: Analyzes outcomes and forms hypotheses  
+- **Memory management**: Maintains scientific context across experiments
+- **Stopping decisions**: Makes autonomous judgments about exploration limits
+
+The Gemini 2.5 Flash model, accessed via the Gemini API, powers the autonomous scientific reasoning loop in this AI scientist.
+
 ## 🔧 Technical Details
 
 - **EEG Data**: 20 subjects, P300 oddball paradigm
 - **Preprocessing**: MNE-Python, 0-600ms epochs, baseline correction
 - **Classification**: Logistic regression on flattened features
 - **Evaluation**: Within-subject train/test split
-- **AI Agent**: Gemini 2.5 Flash with structured prompts
+- **AI Agent**: Google's Gemini 2.5 Flash model via the Gemini API with structured prompts
 
 ## 📊 Example Results
 
