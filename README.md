@@ -12,6 +12,8 @@ This is not just another EEG classifier. This is an **autonomous neuroscientist*
 - **Refines experimental hypotheses** autonomously
 - **Maintains scientific memory** across experiments
 
+The system uses the Google Gemini API (Gemini 3 family – Flash variant) for autonomous scientific reasoning and critique.
+
 ## 🚀 Quick Start
 
 ### 1. Setup Environment
